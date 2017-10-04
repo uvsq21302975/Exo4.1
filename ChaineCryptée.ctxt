@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=decalage\ ch
+comment0.target=ChaineCrypt\u00E9e(int,\ java.lang.String)
+comment1.params=c\ decalage
+comment1.target=char\ decaleCaractere(char,\ int)
+comment2.params=incrypted\ decalage
+comment2.target=ChaineCrypt\u00E9e\ FromCrypted(java.lang.String,\ int)
+comment3.params=indecrypted\ decalage
+comment3.target=ChaineCrypt\u00E9e\ FromDecrypted(java.lang.String,\ int)
+comment4.params=
+comment4.target=java.lang.String\ Decrypte()
+comment5.params=
+comment5.target=java.lang.String\ Crypte()
+numComments=6
