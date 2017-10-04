@@ -30,7 +30,7 @@ public class ChaineCryptee
         int i;
         for(i=0;i<enclair.length();i++)
         {
-            a=decaleCaractere(enclair.charAt(i),decalage);
+            a=decaleCaractere(enclair.toUpperCase().charAt(i),decalage);
             chiffrée+=a;
         }
         enclair=chiffrée;
@@ -52,7 +52,7 @@ public class ChaineCryptee
         int i;
         
                 for(i=0;i<enclair.length();i++)
-           { a=decaleCaractere(enclair.charAt(i),-decalage); 
+           { a=decaleCaractere(enclair.toUpperCase().charAt(i),-decalage); 
              chaine += a;
            }
              
@@ -74,7 +74,7 @@ public class ChaineCryptee
         String chaine_pour_decrypter = "";
         
         for(i=0;i<incrypted.length();i++)
-           { a=decaleCaractere(incrypted.charAt(i),-decalage ); 
+           { a=decaleCaractere(incrypted.toUpperCase().charAt(i),-decalage ); 
              chaine_pour_decrypter += a;
             }
             
